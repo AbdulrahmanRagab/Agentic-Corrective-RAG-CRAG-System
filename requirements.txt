@@ -1,0 +1,78 @@
+# ===============================
+# LangChain (0.2.x family)
+# ===============================
+langchain==0.2.17
+langchain-core>=0.2.0,<0.3.0
+langchain-community==0.2.16
+langchain-text-splitters==0.2.4
+langchain-openai==0.1.25
+langchain-huggingface==0.0.3
+langchain-groq>=0.1.5,<0.2.0
+
+# LangGraph (use modern API)
+langgraph>=0.2.0
+
+# ===============================
+# Vector Stores
+# ===============================
+faiss-cpu>=1.8.0
+chromadb>=0.5.0
+
+# ===============================
+# Hugging Face ecosystem
+# ===============================
+transformers>=4.45.0
+sentence-transformers>=3.0.0
+huggingface-hub>=0.25.0
+
+# ===============================
+# OpenAI / Groq
+# ===============================
+openai>=1.50.0
+groq>=0.11.0
+
+# ===============================
+# RAG / Parsing / Docs
+# ===============================
+beautifulsoup4>=4.12.0
+docx2txt>=0.8
+pypdf>=5.0.0
+wikipedia>=1.4.0
+arxiv>=2.1.0
+tavily-python>=0.5.0
+
+# ===============================
+# Utilities
+# ===============================
+python-dotenv>=1.0.1
+packaging>=24.1
+tqdm>=4.66.0
+typing-extensions>=4.7.0
+
+# ===============================
+# Data & Evaluation (RAGAS)
+# (safer cap to avoid pulling incompatible deps)
+# ===============================
+ragas>=0.1.9,<0.2.0
+datasets>=2.21.0
+evaluate>=0.4.2
+pandas>=2.2.0
+numpy>=1.26.0
+
+# ===============================
+# Streamlit
+# ===============================
+streamlit>=1.38.0
+
+# ===============================
+# Jupyter & Widgets
+# ===============================
+ipython>=8.27.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.5
+jupyter>=1.1.0
+
+# ===============================
+# Pydantic (important)
+# ===============================
+pydantic>=2.9.0,<3.0.0
